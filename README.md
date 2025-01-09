@@ -1,46 +1,72 @@
-# Getting Started with Create React App
+Responsive Web Design Assignment
+This project involves recreating the provided Figma design into a fully responsive web application using React JS, TypeScript, and Tailwind CSS. The goal was to achieve pixel-perfect implementation, responsive layouts, and accessible design principles while adhering to best practices in React development.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Live Demo
+View Deployed Application
+https://figma-responsive-design.vercel.app/
 
-## Available Scripts
+📂 Project Overview
+This project converts the Figma design into a responsive web application with the following features:
 
-In the project directory, you can run:
+Pixel-perfect implementation: Matches the Figma design precisely.
+Responsive Design: Adapts seamlessly to different screen sizes (mobile, tablet, and desktop).
+Reusable Components: Modular components for consistency and reusability.
+Accessible and Semantic: Follows accessibility guidelines and uses semantic HTML structure.
+🛠️ Technologies Used
+React JS: JavaScript library for building user interfaces.
+TypeScript: Strongly-typed superset of JavaScript.
+Tailwind CSS: Utility-first CSS framework for styling.
+Vercel: For deployment of the web application.
+🏗️ Project Setup
+Follow the instructions below to run the project locally.
 
-### `npm start`
+1. Clone the Repository:
+bash
+Copy code
+git clone <repository-url>
+cd <repository-folder>
+2. Install Dependencies:
+Ensure you have Node.js and npm installed. Then run:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+bash
+Copy code
+npm install
+3. Run the Development Server:
+bash
+Copy code
+npm start
+4. Build for Production:
+bash
+Copy code
+npm run build
+5. Deploy the Application:
+To deploy, use a platform like Vercel or Netlify. Example for Vercel:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+bash
+Copy code
+npm i -g vercel
+vercel
+🎨 Design Reference
+Figma Design: View Design
+https://www.figma.com/design/9qegynfiAAWeLMSFykf8yh/Untitled?node-id=2-8&t=X0SpqPUWcMTvq0wL-0
 
-### `npm test`
+📋 Key Features
+Responsive Layout:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Utilized Tailwind CSS utility classes for responsive behavior.
+Implemented breakpoints for mobile, tablet, and desktop views.
+Reusable Components:
 
-### `npm run build`
+Components like buttons, headers, and forms are modular and follow a consistent structure.
+Accessibility and SEO:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Used semantic HTML and ARIA attributes for improved accessibility.
+Optimized for basic SEO best practices.
+📝 Notes on State Management
+For any dynamic functionality implemented (e.g., using React Context or Redux), include a brief overview of its structure and purpose here.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+🔧 Tools Used
+Tailwind CSS Config: Customized using tailwind.config.js for project-specific styling.
+PostCSS: Configured via postcss.config.js for preprocessing CSS.
+🤝 Contributions and Feedback
+If you find any issues or have suggestions, feel free to open an issue or submit a pull request. Contributions are welcome!
