@@ -62,8 +62,6 @@ Accessibility and SEO:
 
 Used semantic HTML and ARIA attributes for improved accessibility.
 Optimized for basic SEO best practices.
-📝 Notes on State Management
-For any dynamic functionality implemented (e.g., using React Context or Redux), include a brief overview of its structure and purpose here.
 
 🔧 Tools Used
 Tailwind CSS Config: Customized using tailwind.config.js for project-specific styling.
